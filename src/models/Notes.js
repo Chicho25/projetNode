@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose'); // se requiere mongose para el squema de datos
 const { Schema } = mongoose;
 
 const NoteSchema = new Schema({
